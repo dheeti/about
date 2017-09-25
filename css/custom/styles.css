@@ -1,0 +1,107 @@
+/* For devices less than 320px - START */
+
+.reveal .controls{
+	margin-bottom: 25px;
+}
+
+.reveal .footer{
+	font-size: 11px !important;
+}
+
+/* For devices less than 320px - END */
+
+
+
+
+/* For devices with screen width more than 320px - START */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+@media (min-width:320px){
+	.reveal .footer{
+		font-size: 16px !important;
+	}
+}
+
+/* For devices with screen width more than 320px - END */
+
+
+
+
+/* For devices with screen width more than 481px - START */
+
+/* smartphones, Android phones, landscape iPhone */
+
+@media (min-width:481px){
+
+}
+
+/* For devices with screen width more than 481px - END */
+
+
+
+
+/* For devices with screen width more than 641px - START */
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+@media (min-width:641px){
+
+}
+
+/* For devices with screen width more than 641px - END */
+
+
+
+
+/* For devices with screen width more than 961px - START */
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media (min-width:961px){
+
+}
+
+/* For devices with screen width more than 961px - END */
+
+
+
+
+/* For devices with screen width more than 1025px - START */
+
+/* big landscape tablets, laptops, and desktops */
+
+@media (min-width:1025px){
+
+}
+
+/* For devices with screen width more than 1025px - END */
+
+
+
+
+/* For devices with screen width more than 1281px - START */
+
+/* hi-res laptops and desktops */
+
+@media (min-width:1281px){
+
+}
+
+/* For devices with screen width more than 1281px - END */
+
+
+
+
+/* For devices with screen width more than 1501px - START */
+
+/* very hi-res laptops and desktops */
+
+@media (min-width:1501px){
+
+}
+
+/* For devices with screen width more than 1501px - END */
+
+
+
