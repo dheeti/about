@@ -10,9 +10,118 @@
 
 /* For devices less than 320px - END */
 
+.outer {
+  align-items: center;
+  /*border: 1px solid #ccc;*/
+  /*display: flex;*/
+  display: inline-block;
+  height: 150px;
+  justify-content: center;
+  max-width: 100%;
+  /*overflow: auto;*/
+  padding: 50px;
+  resize:both;
+  position: relative !important;
+}
 
+svg {  
+  height: 100%;
+}
 
+circle {  
+  	/*fill: #3DB8A4;*/
+  	/*r: 45%;
+	cx: 50%;
+	cy: 50%;*/
+}
 
+text {  
+  fill: #fff;
+  font-size: 0.5rem;
+  font-family: sans-serif;
+}
+
+.slides > section:first-child{
+	top: 0px !important;
+}
+
+#logo1{
+	/*margin-top: -200px !important;
+    margin-left: -25px !important;*/
+    top: 220px;
+    left: -405px;
+}
+
+#logo2{
+	/*margin-top: -100px !important;
+    margin-left: 75px !important;*/
+    top: 120px;
+    left: 350px;
+}
+
+#logo3{
+	/*margin-top: -150px !important;
+    margin-left: -75px !important*/
+    top: 120px;
+    left: 100px;
+}
+
+#linkCircle1{
+	/*margin-top: -150px !important;
+    margin-left: -30px !important*/
+    top: 0px;
+    left: 385px;
+}
+
+#linkCircle2{
+	/*margin-top: -50px !important;
+    margin-left: -230px !important*/
+    top: 85px;
+    left: 40px;
+}
+
+#linkCircle3{
+	/*margin-top: -150px !important;
+    margin-left: 340px !important*/
+    top: 250px;
+    left: -200px;
+}
+
+#linkCircle4{
+	/*margin-top: 40px !important;
+    margin-left: -280px !important*/
+    top: 430px;
+    left: -280px;
+}
+
+#linkCircle5{
+	/*margin-top: -150px !important;
+    margin-left: 480px !important*/
+    top: 510px;
+    left: -250px;
+}
+
+#linkCircle6{
+	/*margin-top: 35px !important;
+    margin-left: -220px !important*/
+    top: 270px;
+    left: 180px;
+}
+
+#linkCircle7{
+	/*margin-top: -150px !important;
+    margin-left: 410px !important*/
+    top: 90px;
+    left: 110px;
+}
+
+#linkCircle8{
+	/*margin-top: -80px !important;
+    margin-left: 0px !important*/
+    top: -75px;
+    left: -135px;
+}
+	
 /* For devices with screen width more than 320px - START */
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
