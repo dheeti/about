@@ -400,7 +400,10 @@
 					{ src: 'plugin/notes/notes.js', async: true }				]
 			});
 			Reveal.configure({ logo: true });
-
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+    		// event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    		ga('send', 'event', 'Slide', 'click', event.currentSlide);
+			} );
 		</script>
 
 	</body>
